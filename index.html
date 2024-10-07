@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Me darías el permiso de ser tu acompañante?</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Música de fondo -->
+    <audio autoplay loop>
+        <source src="Audio de WhatsApp 2024-10-06 a las 19.aac" type="audio/mpeg">
+        <!-- Si no se puede reproducir el archivo -->
+        Tu navegador no soporta la reproducción de audio.
+    </audio>
+
+    <div class="container">
+        <h1 style="color: rgb(154, 0, 234);">¿Me concederías el honor de ...?"</h1>
+        <p>"Oh, hermosa chica de mis sueños, desde el primer momento en que cruzamos miradas, mi corazón ha latido con
+            la fuerza
+            de un mil dragones. Eres la luz que ilumina mi camino y la melodía que alegra mis días. Con cada sonrisa
+            tuya, siento que el mundo se detiene y mi alma danza en un mar de felicidad. No puedo seguir ocultando mis
+            sentimientos; te amo con todo mi ser. ¿Me permitirías ser el protagonista de tu historia y compartir este
+            viaje juntos?"</p>
+        <div class="buttons">
+            <button id="yesButton" onclick="selectOption('yes')">Yes</button>
+            <button id="noButton" onclick="selectOption('no')">No</button>
+        </div>
+        <p id="message" class="hidden"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

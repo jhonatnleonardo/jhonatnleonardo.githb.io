@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/032/854/026/small_2x/couple-standing-on-the-beach-and-looking-at-the-sea-at-night-craft-an-intimate-anime-image-of-the-young-boy-and-girls-on-the-beach-ai-generated-free-photo.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: rgb(139, 0, 139);
+}
+
+.container {
+    text-align: center;
+    background-color: rgb(224 178 225 / 56%);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 14px 1100px rgb(201 98 208 / 15%);
+}
+
+.buttons {
+    margin-top: 10px;
+}
+
+button {
+    padding: 10px 30px;
+    font-size: 20px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin: 0 100px;
+    transition: background-color 0.3s;
+    background-color: rgb(214 52 82);
+}
+
+button:hover {
+    background-color: rgb(166 25 168 / 89%);
+}
+
+.yes-page {
+    background-image: url('https://www.chirchi.com/wp-content/uploads/2024/03/Anime-Suki-na-Ko-ga-Megane-wo-Wasureta-Sukimega-ChirChi.jpg');
+    background-size: cover;
+}
+
+.no-page {
+    background-image: url('https://i.pinimg.com/736x/93/eb/e0/93ebe012c5b64fb9fdc4b7bf156672a1.jpg');
+    background-size: cover;
+}
+
+.hidden {
+    display: none;
+}
+
+#message {
+    margin-top: 20px;
+    font-size: 18px;
+    color: rgb(97, 37, 217);
+}
